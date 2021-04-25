@@ -1,0 +1,51 @@
+.navbar{
+  width:100%;
+  height:30px;
+  background-color:grey;
+
+ }
+.navbar .container-fluid .navbar-header a{
+  
+   color:black;
+ }
+
+.navbar-collapse .navbar-nav li a{
+color: black;
+background-color: lightgrey;
+margin-top: -15px;
+
+}
+.navbar-collapse .navbar-nav li a:hover{
+color: crimson;
+background-color: lightgrey;
+
+}
+.container{
+  width: 100%;
+}
+ .container h1{ 
+  padding: 15px;
+  padding-bottom: 20px;
+ }
+
+ .container .row .col-md-4 .chicken,.container .row .col-sm-6 .chicken,.container .row .col-xs-12 .chicken,
+ .container .row .col-md-4 .beef,.container .row .col-sm-6 .beef,.container .row .col-xs-12 .beef,
+ .container .row .col-md-4 .sushi,.container .row .col-sm-12 .sushi,.container .row .col-xs-12 .sushi
+ {
+  border: 2px solid black;
+  
+  margin-bottom: 5px;
+  background-color: lightgrey 
+ }
+  
+
+@media (min-width:767px){
+.navbar .container-fluid .collapse ul{
+  display:none;
+}
+}
+@media(max-width: 767px){
+   .container h1{
+  margin-top: 60px;
+}
+}
